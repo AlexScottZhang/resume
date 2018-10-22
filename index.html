@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en" class>
+<head>
+    <meta charset="UTF-8">
+    <title>简历生成器</title>
+    <link rel="stylesheet" href="static/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remodal/1.1.0/remodal.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remodal/1.1.0/remodal-default-theme.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/remodal/1.1.0/remodal.min.js"></script>
+    <script src="static/js/script.js"></script>
+</head>
+<body style="padding-right: 0px;">
+    <div class="container" id="cv">
+        <div class="side">
+            <div class="me">
+                <div class="portrait" style="background-image: url(&quot;static/image/photo.png&quot;);"></div>
+                
+                <h1 id="username" contenteditable="true">AlexScott</h1>
+                <h4 id="persona-tag" contenteditable="true">Swift / iOS / 移动端开发</h4>
+            </div>
+            <div class="profile info-unit">
+                <h2 class="info-header"><i class="iconfont icon-person"></i> <span class="info-title" contenteditable="true">基本信息</span><span class="item-add" style="visibility: hidden;"><i class="iconfont icon-playlistadd"></i></span><span class="unit-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></h2>
+                <hr>
+                <ul class="info-list">
+                    <li>
+                        <label class="left-label" contenteditable="true">姓名</label><span class="label-value" contenteditable="true">张硕<br></span><span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></li>
+                    <li>
+                        <label class="left-label" contenteditable="true">学历</label><span class="label-value" contenteditable="true">本科</span><span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></li>
+                    <li>
+                        <label class="left-label" contenteditable="true">毕业院校</label><span class="label-value" contenteditable="true">北京科技大学</span><span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></li>
+                    <li>
+                        <label class="left-label" contenteditable="true">毕业年份</label><span class="label-value" contenteditable="true">2014</span><span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></li>
+                </ul>
+            </div>
+            <div class="contact info-unit">
+                <h2 class="info-header"><i class="iconfont icon-call"></i> <span class="info-title" contenteditable="true">联系方式</span><span class="item-add" style="visibility: hidden;"><i class="iconfont icon-playlistadd"></i></span><span class="unit-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></h2>
+                <hr>
+                <ul class="info-list">
+                    <li>
+                        <label class="left-label" contenteditable="true">手机</label><span class="label-value" contenteditable="true">18611716601</span><span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></li>
+                    <li>
+                        <label class="left-label" contenteditable="true">邮箱</label><span class="label-value" contenteditable="true">alexzhangshuo@163.com</span><span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></li>
+                    
+                    <li>
+                        <label class="left-label" contenteditable="true">Github</label><span class="label-value" contenteditable="true">github.com/AlexScottZhang</span><span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></li>
+                </ul>
+            </div>
+            <div class="skill info-unit">
+                <h2 class="info-header"><i class="iconfont icon-star"></i> <span class="info-title" contenteditable="true">技能点</span><span class="item-add" style="visibility: hidden;"><i class="iconfont icon-playlistadd"></i></span><span class="unit-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></h2>
+                <hr>
+                <ul class="progress-list">
+                    <li>
+                        <label class="left-label" contenteditable="true">Swift</label>
+                        <progress value="80" max="100"></progress>
+                    <span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></li>
+                    <li>
+                        <label class="left-label" contenteditable="true">iOS开发</label>
+                        <progress value="80.46875" max="100"></progress>
+                    <span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></li>
+                    
+                    
+                <li>
+                        <label class="left-label" contenteditable="true">Objective-C</label>
+                        <progress value="23.4375" max="100"></progress>
+                    <span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></li></ul>
+            </div>
+            <div class="stack info-unit">
+                <h2 class="info-header"><i class="iconfont icon-build"></i> <span class="info-title" contenteditable="true">iOS技术栈</span><span class="item-add" style="visibility: hidden;"><i class="iconfont icon-playlistadd"></i></span><span class="unit-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></h2>
+                <hr>
+                <ul class="stack-list">
+                    
+                    
+                    
+                    
+                    <li>
+                        <label class="left-label" contenteditable="true">UIKit</label><span class="label-value" contenteditable="true">UITableView&nbsp;<br>UIScrollView<br>UIStackView<br></span><span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></li>
+                    
+                <li>
+                        <label class="left-label" contenteditable="true">网络</label><span class="label-value" contenteditable="true">HTTP URL Session<br>JSON<br>GCD Concurrency<br></span><span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></li><li>
+                        <label class="left-label" contenteditable="true">数据存储</label><span class="label-value" contenteditable="true">Codable protocol<br></span><span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></li></ul>
+            </div>
+
+            
+            
+        </div>
+        <div class="main">
+            <div class="education info-unit right-list">
+                <h2 class="info-header"><i class="iconfont icon-education"></i> <span class="info-title" contenteditable="true">教育经历</span><span class="item-add" style="visibility: hidden;"><i class="iconfont icon-playlistadd"></i></span><span class="unit-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></h2>
+                <hr>
+                <ul class="experience-list">
+                    <li>
+                        <h3 contenteditable="true">北京科技大学 - 计算机科学与技术（本科）2010-2014</h3>
+                        <p contenteditable="true"></p>
+                    <span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></li>
+                </ul>
+            </div>
+            
+            <div class="project info-unit right-list">
+                <h2 class="info-header"><i class="iconfont icon-project"></i> <span class="info-title" contenteditable="true">个人DEMO</span><span class="item-add" style="visibility: hidden;"><i class="iconfont icon-playlistadd"></i></span><span class="unit-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></h2>
+                <hr>
+                <ul class="experience-list">
+                    <li>
+                        <h3 contenteditable="true">ToDo 提醒</h3>
+                        <p contenteditable="true">用户可以通过定制的界面来创建，编辑toDo事件。&nbsp; &nbsp;<div>该项目利用tableVeiw来给用户呈现已有的toDo事件，并通过static tableView来让用户在定制界面完成基本信息，截止日期与备注的输入。</div><div>该项目同时利用codable协议来实现数据存储<span style="display: inline !important;">&nbsp;&nbsp;</span></div><div><span style="display: inline !important;">地址：github.com/AlexScottZhang/ToDo&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</span></div><div><span style="display: inline !important;"><br></span></div><div><span style="display: inline !important;"><br></span></div><div><span style="display: inline !important;">&nbsp; &nbsp; &nbsp; &nbsp;</span><br></div></p>
+                    <span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></li>
+                    <li>
+                        <h3 contenteditable="true">性格测试</h3>
+                        <p contenteditable="true">
+                            用户通过回答问题来测试性格，并通过四种动物（猫，狗，兔子，乌龟）来表现结果。<div>该项目充分利用了UIKit，利用多种控件来完成单选，多选以及范围选择题目。</div><div>地址：github.com/AlexScottZhang/Personality-Quiz</div><div><br></div><div><br></div><div><br></div></p>
+                    <span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></li>
+                    
+                    
+                <li>
+                        <h3 contenteditable="true">点餐软件</h3>
+                        <p contenteditable="true"><div>点餐软件(方便起见，利用的mac app模拟网络服务器)，用户通过选择食物种类，然后选择菜品加入订单<span style="display: inline !important;">。</span></div><div><span style="display: inline !important;">选择完多个菜品后通过tab bar进入订单，提交订单，并返回预计时间。</span></div><div><span style="display: inline !important;">该项目利用了充分利用了API，JSON，,UITabBarController等相关技术</span></div>地址：github.com/AlexScottZhang/restaurant &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<br>
+                        </p>
+                    <span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></li></ul>
+            </div>
+            
+            
+        </div>
+    </div>
+
+
+
+<div class="remodal-overlay remodal-is-closed" style="display: none;"></div><div class="remodal-wrapper remodal-is-closed" style="display: none;"><div class="remodal remodal-img remodal-is-initialized remodal-is-closed" data-remodal-id="portrait-modal" tabindex="-1">
+                    <h3 contenteditable="true">请输入图片URL地址：</h3>
+                    <br>
+                    <input type="text" id="avatar-url">
+                    <button data-remodal-action="confirm" class="remodal-confirm">确定</button>
+                </div></div><div class="remodal-wrapper remodal-is-closed" style="display: none;"><div class="remodal remodal-img remodal-is-initialized remodal-is-closed" data-remodal-id="weixin-modal" tabindex="-1">
+                <h3 contenteditable="true">请输入图片URL地址：</h3>
+                <br>
+                <input type="text" id="weixin-url">
+                <button data-remodal-action="confirm" class="remodal-confirm">确定</button>
+            </div></div></body>
+</html>
